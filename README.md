@@ -42,4 +42,6 @@ hugo server -D -t paper
 
 7. Hosting Hugo on Github pages follow the official guide here: https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
+- Since this guide doesn't assume you put hugo site at your root, the default action from github pages won't work and neither will the hugo guide actions. You need to adjust the source path where hugo is build. To do this view the "env: \n\t hugo_root:" parameter in the "adjusted_hugo_deploy.yaml"
+
 ## DO NOT FORGET TO ADD cname OF YOUR WEBSITE TO A FILED CALLED CNAME FILE AND PUT IT IN YOUR HUGO ROOT FOLDER (not the root of the github repo, they may not be the same)
