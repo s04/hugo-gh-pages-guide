@@ -18,7 +18,6 @@ https://themes.gohugo.io/themes/hugo-paper/
 ```bash
 hugo new site personal-portfolio
 cd personal-portfolio
-git init
 git submodule add https://github.com/nanxiaobei/hugo-paper ./themes/paper
 echo "theme = 'paper'" >> config.toml
 ```
