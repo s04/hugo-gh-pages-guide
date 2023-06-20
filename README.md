@@ -1,4 +1,4 @@
-# Hugo and Github Pages Guide for s04 websites
+# Hugo and Github Pages Guide for quick static websites
 
 # Requirements
 
