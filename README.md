@@ -27,7 +27,7 @@ echo "theme = 'paper'" >> config.toml
 ```bash
 hugo new blog/first_blog_post.md
 
-cat "This my first blog post." >> ./content/blog/first_blog_post.md
+echo "This my first blog post." >> ./content/blog/first_blog_post.md
 ```
 
 4. Change "draft: true" to "draft: false" in the blog post metadata
